@@ -9,11 +9,18 @@
 /* Begin PBXBuildFile section */
 		EB3030361B9FE16000AEBB5A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3030351B9FE16000AEBB5A /* main.m */; };
 		EB3030391B9FE16000AEBB5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3030381B9FE16000AEBB5A /* AppDelegate.m */; };
-		EB30303C1B9FE16000AEBB5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB30303B1B9FE16000AEBB5A /* ViewController.m */; };
 		EB30303F1B9FE16000AEBB5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB30303D1B9FE16000AEBB5A /* Main.storyboard */; };
 		EB3030411B9FE16000AEBB5A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB3030401B9FE16000AEBB5A /* Images.xcassets */; };
 		EB3030441B9FE16000AEBB5A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB3030421B9FE16000AEBB5A /* LaunchScreen.xib */; };
 		EB3030501B9FE16000AEBB5A /* ADo_MotorRefreshTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB30304F1B9FE16000AEBB5A /* ADo_MotorRefreshTests.m */; };
+		EB30305B1B9FE17600AEBB5A /* ADo_MotorRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = EB30305A1B9FE17600AEBB5A /* ADo_MotorRefresh.m */; };
+		EB30305E1B9FE1CD00AEBB5A /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = EB30305D1B9FE1CD00AEBB5A /* UIView+Extension.m */; };
+		EB3030611B9FE24B00AEBB5A /* ADo_TVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3030601B9FE24B00AEBB5A /* ADo_TVC.m */; };
+		EB3030661B9FE6BC00AEBB5A /* load_icon_dial_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB3030621B9FE6BC00AEBB5A /* load_icon_dial_s@2x.png */; };
+		EB3030671B9FE6BC00AEBB5A /* load_icon_dial@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB3030631B9FE6BC00AEBB5A /* load_icon_dial@2x.png */; };
+		EB3030681B9FE6BC00AEBB5A /* load_icon_pointer_s@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB3030641B9FE6BC00AEBB5A /* load_icon_pointer_s@2x.png */; };
+		EB3030691B9FE6BC00AEBB5A /* load_icon_pointer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EB3030651B9FE6BC00AEBB5A /* load_icon_pointer@2x.png */; };
+		EB30306C1B9FE7BF00AEBB5A /* MotorView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB30306B1B9FE7BF00AEBB5A /* MotorView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +39,24 @@
 		EB3030351B9FE16000AEBB5A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EB3030371B9FE16000AEBB5A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EB3030381B9FE16000AEBB5A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EB30303A1B9FE16000AEBB5A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EB30303B1B9FE16000AEBB5A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EB30303E1B9FE16000AEBB5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EB3030401B9FE16000AEBB5A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EB3030431B9FE16000AEBB5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		EB3030491B9FE16000AEBB5A /* ADo_MotorRefreshTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADo_MotorRefreshTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB30304E1B9FE16000AEBB5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EB30304F1B9FE16000AEBB5A /* ADo_MotorRefreshTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADo_MotorRefreshTests.m; sourceTree = "<group>"; };
+		EB3030591B9FE17600AEBB5A /* ADo_MotorRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADo_MotorRefresh.h; sourceTree = "<group>"; };
+		EB30305A1B9FE17600AEBB5A /* ADo_MotorRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADo_MotorRefresh.m; sourceTree = "<group>"; };
+		EB30305C1B9FE1CD00AEBB5A /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		EB30305D1B9FE1CD00AEBB5A /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		EB30305F1B9FE24B00AEBB5A /* ADo_TVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADo_TVC.h; sourceTree = "<group>"; };
+		EB3030601B9FE24B00AEBB5A /* ADo_TVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADo_TVC.m; sourceTree = "<group>"; };
+		EB3030621B9FE6BC00AEBB5A /* load_icon_dial_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "load_icon_dial_s@2x.png"; sourceTree = "<group>"; };
+		EB3030631B9FE6BC00AEBB5A /* load_icon_dial@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "load_icon_dial@2x.png"; sourceTree = "<group>"; };
+		EB3030641B9FE6BC00AEBB5A /* load_icon_pointer_s@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "load_icon_pointer_s@2x.png"; sourceTree = "<group>"; };
+		EB3030651B9FE6BC00AEBB5A /* load_icon_pointer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "load_icon_pointer@2x.png"; sourceTree = "<group>"; };
+		EB30306A1B9FE7BF00AEBB5A /* MotorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotorView.h; sourceTree = "<group>"; };
+		EB30306B1B9FE7BF00AEBB5A /* MotorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotorView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +100,18 @@
 			children = (
 				EB3030371B9FE16000AEBB5A /* AppDelegate.h */,
 				EB3030381B9FE16000AEBB5A /* AppDelegate.m */,
-				EB30303A1B9FE16000AEBB5A /* ViewController.h */,
-				EB30303B1B9FE16000AEBB5A /* ViewController.m */,
+				EB30305F1B9FE24B00AEBB5A /* ADo_TVC.h */,
+				EB3030601B9FE24B00AEBB5A /* ADo_TVC.m */,
+				EB3030591B9FE17600AEBB5A /* ADo_MotorRefresh.h */,
+				EB30305A1B9FE17600AEBB5A /* ADo_MotorRefresh.m */,
+				EB30306A1B9FE7BF00AEBB5A /* MotorView.h */,
+				EB30306B1B9FE7BF00AEBB5A /* MotorView.m */,
+				EB30305C1B9FE1CD00AEBB5A /* UIView+Extension.h */,
+				EB30305D1B9FE1CD00AEBB5A /* UIView+Extension.m */,
+				EB3030621B9FE6BC00AEBB5A /* load_icon_dial_s@2x.png */,
+				EB3030631B9FE6BC00AEBB5A /* load_icon_dial@2x.png */,
+				EB3030641B9FE6BC00AEBB5A /* load_icon_pointer_s@2x.png */,
+				EB3030651B9FE6BC00AEBB5A /* load_icon_pointer@2x.png */,
 				EB30303D1B9FE16000AEBB5A /* Main.storyboard */,
 				EB3030401B9FE16000AEBB5A /* Images.xcassets */,
 				EB3030421B9FE16000AEBB5A /* LaunchScreen.xib */,
@@ -202,6 +229,10 @@
 				EB30303F1B9FE16000AEBB5A /* Main.storyboard in Resources */,
 				EB3030441B9FE16000AEBB5A /* LaunchScreen.xib in Resources */,
 				EB3030411B9FE16000AEBB5A /* Images.xcassets in Resources */,
+				EB3030661B9FE6BC00AEBB5A /* load_icon_dial_s@2x.png in Resources */,
+				EB3030671B9FE6BC00AEBB5A /* load_icon_dial@2x.png in Resources */,
+				EB3030681B9FE6BC00AEBB5A /* load_icon_pointer_s@2x.png in Resources */,
+				EB3030691B9FE6BC00AEBB5A /* load_icon_pointer@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,8 +250,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB30303C1B9FE16000AEBB5A /* ViewController.m in Sources */,
+				EB30305E1B9FE1CD00AEBB5A /* UIView+Extension.m in Sources */,
+				EB3030611B9FE24B00AEBB5A /* ADo_TVC.m in Sources */,
+				EB30305B1B9FE17600AEBB5A /* ADo_MotorRefresh.m in Sources */,
 				EB3030391B9FE16000AEBB5A /* AppDelegate.m in Sources */,
+				EB30306C1B9FE7BF00AEBB5A /* MotorView.m in Sources */,
 				EB3030361B9FE16000AEBB5A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ADo_TVC.h
 //  ADo_MotorRefresh
 //
 //  Created by 杜 维欣 on 15/9/9.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ADo_TVC : UITableViewController
 
 @end
-
