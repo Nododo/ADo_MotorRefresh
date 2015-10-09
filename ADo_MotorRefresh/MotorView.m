@@ -31,20 +31,32 @@
 - (void)setFireRate:(float)fireRate
 {
     _fireRate = fireRate;
-    topView.transform = CGAffineTransformMakeRotation(_fireRate * 7 / 5 * M_PI);
+    topView.transform = CGAffineTransformMakeRotation(_fireRate * 8 / 5 * M_PI);
 }
 
 
 - (void)loading
 {
     CAKeyframeAnimation *rotation = [CAKeyframeAnimation animationWithKeyPath:@"transform.rotation.z"];
-    rotation.values = @[@(-0.75 *M_PI),@(-1.5 *M_PI),@(-1.25 *M_PI)];
+    rotation.values = @[@(-1 *M_PI),@(-1.5*M_PI)];
     rotation.fillMode = kCAFillModeForwards;
     rotation.removedOnCompletion = NO;
-    rotation.duration = 1.0f;
+    rotation.duration = .5f;
+    rotation.repeatCount = MAXFLOAT;
+    rotation.autoreverses = YES;
     [topView.layer addAnimation:rotation forKey:nil];
     
 }
+
+
+- (void)preToLoad
+{
+    [UIView animateWithDuration:0.3 animations:^{
+        
+        topView.transform = CGAffineTransformMakeRotation(_fireRate * 8 / 5 * M_PI);
+    }];
+}
+
 
 - (void)reset
 {

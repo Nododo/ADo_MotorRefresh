@@ -14,6 +14,7 @@
 
 - (void)loading;
 
+- (void)preToLoad;
 
 - (void)reset;
 @end
